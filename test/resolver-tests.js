@@ -10,6 +10,33 @@ const resolver = require('./../lib')
 const tests = [
   {
     input: {
+      case: {
+        id: 'ID-1234'
+      }
+    },
+    template: {
+      filter: {
+        where: {
+          caseId: {
+            equals: '$.case.id'
+          }
+        },
+        orderBy: ['-created']
+      }
+    },
+    expected: {
+      filter: {
+        where: {
+          caseId: {
+            equals: 'ID-1234'
+          }
+        },
+        orderBy: ['-created']
+      }
+    }
+  },
+  {
+    input: {
       world: 'Earth',
       nested: {
         object: 'Yep, this one!'
@@ -35,8 +62,8 @@ const tests = [
 ]
 
 describe('Resolver tests', () => {
-  tests.forEach(({ input, template, expected }) => {
-    it('test', () => {
+  tests.forEach(({ input, template, expected }, i) => {
+    it(`Test ${i + 1}`, () => {
       const result = resolver(input, template)
       expect(result).to.eql(expected)
     })

@@ -4,12 +4,12 @@
 
 ## <a name="install"></a>Install
 ```bash
-$ npm install json-path-input-resolver --save
+$ npm install @wmfs/json-path-input-resolver --save
 ```
 
 ## <a name="usage"></a>Usage
 ```javascript
-const resolver = require('json-path-input-resolver')
+const resolver = require('@wmfs/json-path-input-resolver')
 const result = resolver(
   {
     world: 'Earth',

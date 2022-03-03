@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/wmfs/json-path-input-resolver/compare/v1.0.1...v1.1.0) (2022-03-03)
+
+
+### ✨ Features
+
+* handle instances where template is a string ([0e6681f](https://github.com/wmfs/json-path-input-resolver/commit/0e6681f07be11011778f23f10bfe0bf9af2a2402))
+
 ## [1.0.1](https://github.com/wmfs/json-path-input-resolver/compare/v1.0.0...v1.0.1) (2022-03-03)
 
 

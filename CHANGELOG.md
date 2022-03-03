@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/wmfs/json-path-input-resolver/compare/v1.0.0...v1.0.1) (2022-03-03)
+
+
+### 🐛 Bug Fixes
+
+* cover some more test cases ([8fc31e7](https://github.com/wmfs/json-path-input-resolver/commit/8fc31e777ba53de32678160228daf82a4748be17))
+
 # 1.0.0 (2022-02-25)
 
 

@@ -153,6 +153,18 @@ const tests = [
       { name: 'Bart' },
       { name: 'Lisa' }
     ]
+  },
+  {
+    input: {},
+    template: 'Hello world',
+    expected: 'Hello world'
+  },
+  {
+    input: {
+      message: 'Hello world'
+    },
+    template: '$.message',
+    expected: 'Hello world'
   }
 ]
 

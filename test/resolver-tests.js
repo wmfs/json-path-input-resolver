@@ -122,6 +122,37 @@ const tests = [
         another: 'Yep, this one!'
       }
     }
+  },
+  {
+    input: {},
+    template: [
+      'apple',
+      'banana',
+      'crisps'
+    ],
+    expected: [
+      'apple',
+      'banana',
+      'crisps'
+    ]
+  },
+  {
+    input: {
+      wife: 'Marge',
+      children: ['Bart', 'Lisa']
+    },
+    template: [
+      { name: 'Homer' },
+      { name: '$.wife' },
+      { name: '$.children[0]' },
+      { name: '$.children[1]' }
+    ],
+    expected: [
+      { name: 'Homer' },
+      { name: 'Marge' },
+      { name: 'Bart' },
+      { name: 'Lisa' }
+    ]
   }
 ]
 

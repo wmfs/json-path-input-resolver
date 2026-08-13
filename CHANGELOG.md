@@ -1,3 +1,5 @@
+## [1.2.1](https://github.com/wmfs/json-path-input-resolver/compare/v1.2.0...v1.2.1) (2026-08-13)
+
 ## [1.2.0](https://github.com/wmfs/json-path-input-resolver/compare/v1.1.0...v1.2.0) (2025-10-21)
 
 ### Build system dependencies :hammer:

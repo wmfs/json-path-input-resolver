@@ -1,3 +1,21 @@
+## [1.3.0](https://github.com/wmfs/json-path-input-resolver/compare/v1.2.1...v1.3.0) (2026-10-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** fix conventionalcommit versions [sc-34125] ([257a313](https://github.com/wmfs/json-path-input-resolver/commit/257a313822c7c54f894d4c4e2cdfc1a76d937419))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#135](https://github.com/wmfs/json-path-input-resolver/issues/135)) ([d092fe2](https://github.com/wmfs/json-path-input-resolver/commit/d092fe254abff81596e68714445ef3ad7ff7ba8d))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.1 ([#140](https://github.com/wmfs/json-path-input-resolver/issues/140)) ([90d40f7](https://github.com/wmfs/json-path-input-resolver/commit/90d40f7e632cd521716e7a4381aba932a11feb3b))
+* **deps-dev:** update dependency mocha to v12 ([#136](https://github.com/wmfs/json-path-input-resolver/issues/136)) ([e2da6b4](https://github.com/wmfs/json-path-input-resolver/commit/e2da6b47de7b49e259ad8b79f84edb6566e36200))
+* **deps-dev:** update dependency mocha to v12.0.1 ([#137](https://github.com/wmfs/json-path-input-resolver/issues/137)) ([378d9f1](https://github.com/wmfs/json-path-input-resolver/commit/378d9f1216d92a59276c96c6c9ffd9a0bd8341e8))
+* **deps-dev:** update dependency mocha to v12.0.2 ([#138](https://github.com/wmfs/json-path-input-resolver/issues/138)) ([9ad6085](https://github.com/wmfs/json-path-input-resolver/commit/9ad608545d497979db17997e9389b261c13cce65))
+* **deps-dev:** update dependency mocha to v12.0.3 ([#139](https://github.com/wmfs/json-path-input-resolver/issues/139)) ([cd7e0e2](https://github.com/wmfs/json-path-input-resolver/commit/cd7e0e276545a98ec5b1ee3384179de9bf954851))
+* **deps:** update dependency jsonpath to v1.3.0 [security] ([#112](https://github.com/wmfs/json-path-input-resolver/issues/112)) ([fe48420](https://github.com/wmfs/json-path-input-resolver/commit/fe48420b166c9f32230378d9a610886714b1d078))
+
+### CICD Configuration Changes :construction_worker:
+
+* use github-app-token orb for release token [sc-34101]- [#142](https://github.com/wmfs/json-path-input-resolver/issues/142) ([cb7c5a2](https://github.com/wmfs/json-path-input-resolver/commit/cb7c5a2c1cbea5dbd28c5011d8383a2e9a5e75ba))
+* use shared renovate preset [sc-34117] ([#141](https://github.com/wmfs/json-path-input-resolver/issues/141)) ([5279432](https://github.com/wmfs/json-path-input-resolver/commit/5279432a296cecfc9ab9f9a69b3852dcee3faf11))
+
 ## [1.2.1](https://github.com/wmfs/json-path-input-resolver/compare/v1.2.0...v1.2.1) (2026-08-13)
 
 ## [1.2.0](https://github.com/wmfs/json-path-input-resolver/compare/v1.1.0...v1.2.0) (2025-10-21)
